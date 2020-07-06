@@ -1,0 +1,6 @@
+<h2 style="color: #00FFFF;">{{ov}}</h2>
+<hr style="border: 1px solid black;" />
+<p><b>Summary:</b> {{values}}</p> <input [(ngModel)] = "twoov">
+<button (click) =  "display()">Enter</button>
+<p *ngIf = "fullname()" else elsep> Mounika </p>
+<ng-template #elsep>HI</ng-template>
